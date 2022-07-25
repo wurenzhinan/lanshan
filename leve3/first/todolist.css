@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+  position: relative;
+  line-height: 40px;
+  text-align: center;
+  height: 40px;
+  background-color: rgb(249, 249, 249);
+}
+button {
+  border: 0;
+  background-color: transparent;
+  outline: none;
+}
+.box {
+  border-radius: 15px;
+  width: 600px;
+}
+.nav {
+  margin: auto;
+  width: 600px;
+  height: 200px;
+  background-color: rgb(255, 192, 203);
+}
+h1 {
+  padding-top: 50px;
+  color: white;
+}
+.todo {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+input {
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 300px;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+.add {
+  background-color: rgb(231, 118, 137);
+  height: 40px;
+  width: 100px;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+.body {
+  margin: auto;
+  width: 600px;
+}
+.delete {
+  float: right;
+  height: 40px;
+}
+.done {
+  float: left;
+  height: 40px;
+}
+.do {
+  background-color: rgb(228, 194, 194);
+  text-decoration: line-through;
+  color: aliceblue;
+}

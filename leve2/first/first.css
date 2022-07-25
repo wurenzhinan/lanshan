@@ -1,0 +1,24 @@
+.box {
+  width: 291px;
+  height: 508px;
+  background-color: rgb(29, 91, 190);
+  margin: auto;
+  box-shadow: 19px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px #888888;
+}
+.fir {
+  height: 263px;
+  background: url(./panda.jpg);
+  background-size: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.sec {
+  height: 245px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: darkgray;
+}
